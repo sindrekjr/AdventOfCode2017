@@ -14,6 +14,10 @@
 * Lines: 5
 * Language: Haskell
 * Self-criticism: Too short?
+##### Part 2
+* Lines: 9
+* Language: Haskell
+* Comment: Cleaner than part 1
 ---
 ### Day 3
 ##### Part 1
