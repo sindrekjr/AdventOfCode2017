@@ -7,7 +7,7 @@
 * Self-criticism: ~~Clumsy, long, full of stuff~~
 #### Part 2
 * Lines: 15
-* Language Javascript, Nodejs
+* Language: Javascript, Nodejs
 ---
 ### Day 2
 #### Part 1
@@ -37,4 +37,7 @@
 ### Day 5
 #### Part 1
 * Lines: 14
+* Language: Python
+#### Part 2
+* Lines: 15
 * Language: Python
