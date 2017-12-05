@@ -1,6 +1,6 @@
 # AdventOfCode
 
-### Day 1 
+### Day 1
 * Lines: 24
 * Language: Javascript 
 * Self-criticism: Clumsy, long, full of stuff
@@ -13,6 +13,8 @@
 
 
 ### Day 3
+* Lines: 19
+* Language: Haskell
 
 
 ### Day 4
@@ -21,6 +23,6 @@
 * Self-criticism: Too long? 
 
 
-### Day 65
+### Day 5
 * Lines: 14
 * Language: Python
