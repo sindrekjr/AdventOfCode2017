@@ -9,7 +9,6 @@ while position >= 0 and position < len(jumps):
     count += 1
     current = position
     position += jumps[current]
-    if position >= current + 3: jumps[current] -= 1
-    else: jumps[current] += 1
+    jumps[current] += 1
 
 print(count)
