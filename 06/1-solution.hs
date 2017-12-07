@@ -4,12 +4,16 @@ import Data.Maybe
 prsInt :: String -> Int
 prsInt = read
 
-cnt val ln start i
-  | i == start  = (val `div` ln)
-  | i > start   = ((val - (i - start)) `div` ln) + 1
-  | otherwise   = ((val - ((ln + 1) - start)) `div` ln) + 1
+fRep :: Int -> (a -> a) -> a -> a
+fRep n func x
+  | n == 0    = x
+  | otherwise = func (fRep (n-1) func x)
 
-redist :: [Int] -> [Int]
+cnt val ln start i
+  | i == start = (val `div` ln)
+  | i > start  = ((val - (i - start)) `div` ln) + 1
+  | otherwise  = ((val - ((ln + 1) - start)) `div` ln) + 1
+
 redist xs =
   [ if x == i
       then 0 + (cnt m (length xs) i x)
@@ -20,6 +24,6 @@ redist xs =
   ]
 
 main = do
-  inp <- return . map prsInt . words =<< readFile "input"
-  return [ x | x <- redist (inp) ]
-  --return (redist (redist inp))
+  input <- return . map prsInt . words =<< readFile "input"
+  let list = nub [ if x == 0 then y else fRep x redist y | x <- [0..300], let y = input ]
+  return (length list)
