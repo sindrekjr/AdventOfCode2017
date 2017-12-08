@@ -3,11 +3,10 @@
 ### Day 1
 #### Part 1
 * Lines: 18
-* Language: Javascript, Nodejs
-* Self-criticism: ~~Clumsy, long, full of stuff~~
+* Language: JavaScript, Nodejs
 #### Part 2
 * Lines: 15
-* Language: Javascript, Nodejs
+* Language: JavaScript, Nodejs
 ---
 ### Day 2
 #### Part 1
@@ -41,3 +40,9 @@
 #### Part 2
 * Lines: 15
 * Language: Python
+---
+### Day 6
+#### Part 1
+* Lines: 31
+* Language: Haskell
+* Self-criticism: Was stuck for a long time on some horrific brute-forcy attempts
