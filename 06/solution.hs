@@ -20,11 +20,16 @@ redist xs =
     let start = fromJust (elemIndex m xs)
   ]
 
-next :: [[Int]] -> Int -> Int
+next :: [[Int]] -> Int -> [[Int]]
 next list cycles
-  | (head list) `elem` (drop 1 list) = cycles
-  | otherwise = next ([redist (head list)] ++ list) (cycles + 1)
+  | (head list) `elem` (drop 1 list)  = list
+  | otherwise                         = next ([redist (head list)] ++ list) (cycles + 1)
 
-main = do
+part1 = do
   input <- return . map prsInt . words =<< readFile "input"
-  return (next [input] 0)
+  return (length (next [input] 0) - 1)
+
+part2 = do
+  input <- return . map prsInt . words =<< readFile "input"
+  let list = next [input] 0
+  return (fromJust (elemIndex (head list) (drop 1 list)) + 1)

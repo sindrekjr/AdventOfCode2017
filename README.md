@@ -42,7 +42,7 @@
 * Language: Python
 ---
 ### Day 6
-#### Part 1
-* Lines: 30
+#### Part 1 & Part 2
+* Lines: 35
 * Language: Haskell
 * Self-criticism: Was stuck for a long time on some horrific brute-forcy attempts
