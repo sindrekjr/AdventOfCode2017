@@ -46,3 +46,7 @@
 * Lines: 35
 * Language: Haskell
 * Self-criticism: Was stuck for a long time on some horrific brute-forcy attempts
+### Day 7
+#### Part 1
+* Lines: 9
+* Language: Python
