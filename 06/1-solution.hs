@@ -23,7 +23,6 @@ redist xs =
 next :: [[Int]] -> Int -> Int
 next list cycles
   | (head list) `elem` (drop 1 list) = cycles
-  | cycles > 5000 = cycles
   | otherwise = next ([redist (head list)] ++ list) (cycles + 1)
 
 main = do

@@ -43,6 +43,6 @@
 ---
 ### Day 6
 #### Part 1
-* Lines: 31
+* Lines: 30
 * Language: Haskell
 * Self-criticism: Was stuck for a long time on some horrific brute-forcy attempts
