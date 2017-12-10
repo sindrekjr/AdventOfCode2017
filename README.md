@@ -1,4 +1,4 @@
-# AdventOfCode
+# AdventOfCode 2017
 
 ### Day 1
 #### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/01/1-solution.js)
@@ -42,7 +42,7 @@
 * Language: Python
 ---
 ### Day 6
-#### [Part 1 & Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/06/solution.hs)
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/06/solution.hs)
 * Lines: 35
 * Language: Haskell
 * Self-criticism: Was stuck for a long time on some horrific brute-forcy attempts
