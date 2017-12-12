@@ -54,7 +54,7 @@
 * Comment: Neat!
 ---
 ### Day 8
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/1-solution.java)
-* Lines: 35
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/solution.java)
+* Lines: 38
 * Language: Java
 * Self-criticism: Java
