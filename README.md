@@ -52,3 +52,9 @@
 * Lines: 9
 * Language: Python
 * Comment: Neat!
+---
+### Day 8
+#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/1-solution.java)
+* Lines: 35
+* Language: Java
+* Self-criticism: Java
