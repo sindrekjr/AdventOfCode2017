@@ -3,10 +3,10 @@
 ### Day 1
 #### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/01/1-solution.js)
 * Lines: 18
-* Language: JavaScript, Nodejs
+* Language: JavaScript, Node.js
 #### [Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/01/2-solution.js)
 * Lines: 15
-* Language: JavaScript, Nodejs
+* Language: JavaScript, Node.js
 ---
 ### Day 2
 #### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/02/1-solution.hs)
@@ -52,8 +52,14 @@
 * Language: Java
 * Comment: Java
 ---
+### Day 9
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/solution.js)
+* Lines: 38
+* Language: JavaScript, Node.js
+* Comment: Could probably be a lot more concise
+---
 ### Day 13
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/13/solution.py)
-* Lines: 20
+* Lines: 19
 * Language: Python
 * Comment: Brute-force
