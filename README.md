@@ -12,7 +12,7 @@
 #### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/02/1-solution.hs)
 * Lines: 5
 * Language: Haskell
-* Self-criticism: Too short?
+* Comment: Too short?
 #### [Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/02/2-solution.hs)
 * Lines: 9
 * Language: Haskell
@@ -27,7 +27,7 @@
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/04/solution.hs)
 * Lines: 12
 * Language: Haskell
-* Self-criticism: Too long?
+* Comment: Too long?
 ---
 ### Day 5
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/05/solution.py)
@@ -38,7 +38,7 @@
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/06/solution.hs)
 * Lines: 35
 * Language: Haskell
-* Self-criticism: Was stuck for a long time on some horrific brute-forcy attempts
+* Comment: Was stuck for a long time on some horrific brute-forcy attempts
 ---
 ### Day 7
 #### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/07/1-solution.py)
@@ -50,9 +50,10 @@
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/solution.java)
 * Lines: 38
 * Language: Java
-* Self-criticism: Java
+* Comment: Java
 ---
 ### Day 13
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/13/solution.py)
-* Lines: 7
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/13/solution.py)
+* Lines: 20
 * Language: Python
+* Comment: Brute-force
