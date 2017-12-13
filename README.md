@@ -58,3 +58,8 @@
 * Lines: 38
 * Language: Java
 * Self-criticism: Java
+---
+### Day 13
+#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/13/solution.py)
+* Lines: 7
+* Language: Python
