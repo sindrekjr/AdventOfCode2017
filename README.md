@@ -24,14 +24,10 @@
 * Language: Haskell
 ---
 ### Day 4
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/04/1-solution.hs)
-* Lines: 8
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/04/solution.hs)
+* Lines: 12
 * Language: Haskell
 * Self-criticism: Too long?
-#### [Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/04/2-solution.hs)
-* Lines: 8
-* Language: Haskell
-* Comment: Hardly any difference from part 1
 ---
 ### Day 5
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/05/solution.py)
