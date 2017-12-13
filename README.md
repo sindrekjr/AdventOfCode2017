@@ -53,7 +53,7 @@
 * Comment: Java
 ---
 ### Day 9
-#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/solution.js)
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/09/solution.js)
 * Lines: 38
 * Language: JavaScript, Node.js
 * Comment: Could probably be a lot more concise
