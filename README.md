@@ -34,11 +34,8 @@
 * Comment: Hardly any difference from part 1
 ---
 ### Day 5
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/05/1-solution.py)
-* Lines: 14
-* Language: Python
-#### [Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/05/2-solution.py)
-* Lines: 15
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/05/solution.py)
+* Lines: 20
 * Language: Python
 ---
 ### Day 6
