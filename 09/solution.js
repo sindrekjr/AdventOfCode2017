@@ -2,7 +2,7 @@
 const fs = require("fs");
 
 fs.readFile("input", "utf8", function(error, input) {
-  let score = 0, start = 1;
+  let score = 0, start = 1, count = 0;
   let garbage = false;
   input = input.trim().split("");
 
@@ -15,17 +15,24 @@ fs.readFile("input", "utf8", function(error, input) {
         garbage = false;
         break;
       case "<":
-        garbage = true;
-        break;
+        if(!garbage) {
+          garbage = true;
+          break;
+        }
       case "{":
-        if(!garbage) score += start++;
-        break;
+        if(!garbage) {
+          score += start++;
+          break;
+        }
       case "}":
-        if(!garbage) start--;
-        break;
+        if(!garbage) {
+          start--;
+          break;
+        }
       default:
+        if(garbage) count++;
         break;
     }
   }
-  console.log(score);
+  console.log("Score: " + score + "\nGarbage: " + count);
 });
