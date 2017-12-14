@@ -1,11 +1,8 @@
 # AdventOfCode 2017
 
 ### Day 1
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/01/1-solution.js)
-* Lines: 18
-* Language: JavaScript, Node.js
-#### [Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/01/2-solution.js)
-* Lines: 15
+#### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/01/solution.js)
+* Lines: 16
 * Language: JavaScript, Node.js
 ---
 ### Day 2
