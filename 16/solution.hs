@@ -1,4 +1,3 @@
-import Data.Char
 import Data.List.Split
 
 main = do

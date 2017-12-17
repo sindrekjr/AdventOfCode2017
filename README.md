@@ -60,3 +60,8 @@
 * Lines: 19
 * Language: Python
 * Comment: Brute-force
+---
+### Day 16
+#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/16/solution.hs)
+* Lines: 17
+* Language: Haskell
