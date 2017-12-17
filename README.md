@@ -62,6 +62,7 @@
 * Comment: Brute-force
 ---
 ### Day 16
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/16/solution.hs)
-* Lines: 17
+#### [Part 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/16/solution.hs)
+* Lines: 26
 * Language: Haskell
+* Comment: Very slow part 2
