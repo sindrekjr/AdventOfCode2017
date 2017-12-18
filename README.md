@@ -38,10 +38,10 @@
 * Comment: Was stuck for a long time on some horrific brute-forcy attempts
 ---
 ### Day 7
-#### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/07/1-solution.py)
-* Lines: 9
+#### [Part 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/07/solution.py)
+* Lines: 30
 * Language: Python
-* Comment: Neat!
+* Comment: So many list comprehensions...
 ---
 ### Day 8
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/08/solution.java)
