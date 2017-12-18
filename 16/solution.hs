@@ -15,10 +15,10 @@ findLoop prgs moves
 
 dance :: [Char] -> [String] -> [Char]
 dance prgs moves
-  | length moves == 0, otherwise  = prgs
-  | head moves !! 0 == 's'        = dance (s prgs (tail $ head moves)) (tail moves)
-  | head moves !! 0 == 'x'        = dance (x prgs (tail $ head moves)) (tail moves)
-  | head moves !! 0 == 'p'        = dance (p prgs (tail $ head moves)) (tail moves)
+  | length moves == 0, otherwise = prgs
+  | head moves !! 0 == 's'       = dance (s prgs (tail $ head moves)) (tail moves)
+  | head moves !! 0 == 'x'       = dance (x prgs (tail $ head moves)) (tail moves)
+  | head moves !! 0 == 'p'       = dance (p prgs (tail $ head moves)) (tail moves)
 
 s, x, p :: [Char] -> String -> [Char]
 s prgs move = take (length prgs) (drop (length prgs - read move) (cycle prgs))

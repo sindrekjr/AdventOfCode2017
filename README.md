@@ -33,7 +33,7 @@
 ---
 ### Day 6
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/06/solution.hs)
-* Lines: 35
+* Lines: 30
 * Language: Haskell
 * Comment: Was stuck for a long time on some horrific brute-forcy attempts
 ---
