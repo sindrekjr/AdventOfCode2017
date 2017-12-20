@@ -19,6 +19,9 @@
 ##### [Part 1](https://github.com/sindrekjr/AdventOfCode2017/blob/master/03/1-solution.hs)
 * Lines: 19
 * Language: Haskell
+##### [Part 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/03/2-solution.hs)
+* Lines: 17
+* Language: Haskell
 ---
 ### Day 4
 #### [Parts 1 & 2](https://github.com/sindrekjr/AdventOfCode2017/blob/master/04/solution.hs)
