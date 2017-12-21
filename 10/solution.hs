@@ -1,25 +1,15 @@
--- 19591
 import Data.List.Split
 
-prsInt :: String -> Int
-prsInt = read
-
+knit :: [Int] -> [Int] -> Int -> Int -> [Int]
 knit list input i skip
   | length input == 0 = list
-  | length list < i   = knit list input (i - length list) skip -- i might be logically free to cycle, making this line redundant
---  | length list > 256 = list
-  | otherwise         = knit (start ++ middle ++ end) (drop 1 input) (i + skip + step) (skip + 1) where
-      step = head input
-      rev = reverse (take step (drop i (cycle list)))
-      rnd = (i + step) - length list
-      start = if rnd > 0 then drop (length rev - rnd) rev else take i list
-      middle = if rnd > 0 then take (i - rnd) (drop rnd list) else take step (drop i list)
-      end = if rnd > 0 then take (length list - i) (drop i list) else []
-      --nl = list ++ rev
-      --off = length nl - length list
+  | otherwise         = knit nl (drop 1 input) (cycle [0..length list - 1] !! (i + skip + len)) (skip + 1) where
+      len = head input
+      rev = reverse (take len (drop i (cycle list)))
+      rnd = if (i + len) - (length list) < 0 then 0 else (i + len) - (length list)
+      nl = take rnd (drop (len - rnd) rev) ++ take (i - rnd) (drop rnd list) ++ take (len - rnd) rev ++ drop (i + len) list
 
 part1 = do
-  input <- return . map prsInt . splitOn "," =<< readFile "input"
-  let list = knit [0..255] input 0 0
-  return (length list)
-  --return (list !! 0 * list !! 1)
+  input <- return . map (read :: String -> Int) . splitOn "," =<< readFile "input"
+  let result = knit [0..255] input 0 0
+  return $ result !! 0 * result !! 1
