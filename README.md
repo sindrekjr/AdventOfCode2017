@@ -12,7 +12,7 @@
 | [8: I Heard You Like Registers](http://adventofcode.com/2017/day/8) | [1+2](/08/solution.java) | Java | 38 | |
 | [9: Stream Processing](http://adventofcode.com/2017/day/9) | [1+2](/09/solution.js) | JavaScript | 38 | Could probably be a lot more concise. |
 | [10: Knot Hash](http://adventofcode.com/2017/day/10) | [1+2](/10/solution.hs) | Haskell | 28 | |
-| [11: Hex Ed](http://adventofcode.com/2017/day/11) | | | | |
+| [11: Hex Ed](http://adventofcode.com/2017/day/11) | [1](/11/solution.sh) | Bash | 24 | |
 | [12: Digital Plumber](http://adventofcode.com/2017/day/12) | | | | |
 | [13: Packet Scanners](http://adventofcode.com/2017/day/13) | [1+2](/13/solution.py) | Python | 19 | Brute-force. |
 | [14: Disk Defragmentation](http://adventofcode.com/2017/day/14) | | | | |
