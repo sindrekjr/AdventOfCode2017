@@ -16,9 +16,12 @@ do
   elif [ $d == "n" ];
     then ((y++))
   fi
+  ((xz = (x >= 0) ? x : -x))
+  ((yz = (y >= 0) ? y : -y))
+  ((current = ((x * y) > 0) ? ((xz > yz) ? xz : yz) : (xz + yz)))
+  ((furthest = (current > furthest) ? current : furthest))
 done
-((xz = (x >= 0) ? x : -x))
-((yz = (y >= 0) ? y : -y))
 ((steps = ((x * y) > 0) ? ((xz > yz) ? xz : yz) : (xz + yz)))
 
-echo $steps > result
+echo "Part 1: "$steps
+echo "Part 2: "$furthest
