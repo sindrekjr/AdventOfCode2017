@@ -3,7 +3,7 @@
 | Day | Part | Language | Lines | Comment |
 |-----|------|----------|-------|---------|
 | [1: Inverse Captcha](http://adventofcode.com/2017/day/1) | [1+2](/01/solution.js) | JavaScript | 16 | |
-| [2: Corruption Checksum](http://adventofcode.com/2017/day/2) | [1+2](/02/solution.hs) | Haskell<br>Haskell | 6 | |
+| [2: Corruption Checksum](http://adventofcode.com/2017/day/2) | [1+2](/02/solution.hs) | Haskell | 6 | |
 | [3: Spiral Memory](http://adventofcode.com/2017/day/3) | [1](/03/1-solution.hs)<br>[2](/03/2-solution.hs) | Haskell<br>Haskell | 19<br>17 | |
 | [4: High-Entropy Passphrases](http://adventofcode.com/2017/day/4) | [1+2](/04/solution.hs) | Haskell | 12 | |
 | [5: A Maze of Twisty Trampolines, All Alike](http://adventofcode.com/2017/day/5) | [1+2](/05/solution.py) | Python | 20 | |
