@@ -4,10 +4,10 @@ main(R) :-
   readFile("input", Input),
   maplist(group, Input, Groups),
   /*flatten(Groups, Programs),
-  connected(Programs, Groups, [0], Relations),*/
-  connected([0], [], Groups, Relations),
-  sort(Relations, Uniques),
-  length(Uniques, R).
+  connected(Programs, Groups, [0], Relations),
+  sort(Relations, Uniques),*/
+  connected([0], [], Groups, Uniques),
+  length(Uniques, R), !.
 
 /*connected([], _, R, R).
 connected([H|T], Groups, X, R) :-
@@ -17,11 +17,11 @@ connected([], R, R).
 connected([H|T], X, R) :-
   member(Y, H), member(Y, X) -> flatten([H|X], X1), connected(T, X1, R) ; connected(T, X, R).*/
 connected([], _, _, []).
-connected([P|Tail], Visited, Groups, [P|R]):-
-  select([P|Ps], Groups, NGroups),
-  subtract(Ps, [P|Visited], NPs),
-  union(Tail, NPs, NTail),
-  connected(NTail, [P|Visited], NGroups, R).
+connected([H|T], Visited, Groups, [H|R]):-
+  select([H|Programs], Groups, NGroups),
+  subtract(Programs, [H|Visited], NPrograms),
+  union(T, NPrograms, NT),
+  connected(NT, [H|Visited], NGroups, R).
 
 group(Line, Result) :-
   split_string(Line, "<->", " <-> ", [ A, B ]),
