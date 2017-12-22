@@ -3,9 +3,9 @@
 | Day | Part | Language | Lines | Comment |
 |-----|------|----------|-------|---------|
 | [1: Inverse Captcha](http://adventofcode.com/2017/day/1) | [1+2](/01/solution.js) | JavaScript | 16 | |
-| [2: Corruption Checksum](http://adventofcode.com/2017/day/2) | [1](/02/1-solution.hs)<br>[2](/02/2-solution.hs) | Haskell<br>Haskell | 5<br>9 | Too short? |
+| [2: Corruption Checksum](http://adventofcode.com/2017/day/2) | [1+2](/02/solution.hs) | Haskell<br>Haskell | 6 | |
 | [3: Spiral Memory](http://adventofcode.com/2017/day/3) | [1](/03/1-solution.hs)<br>[2](/03/2-solution.hs) | Haskell<br>Haskell | 19<br>17 | |
-| [4: High-Entropy Passphrases](http://adventofcode.com/2017/day/4) | [1+2](/04/solution.hs) | Haskell | 12 | Too long? |
+| [4: High-Entropy Passphrases](http://adventofcode.com/2017/day/4) | [1+2](/04/solution.hs) | Haskell | 12 | |
 | [5: A Maze of Twisty Trampolines, All Alike](http://adventofcode.com/2017/day/5) | [1+2](/05/solution.py) | Python | 20 | |
 | [6: Memory Reallocation](http://adventofcode.com/2017/day/6) | [1+2](/06/solution.hs) | Haskell | 30 | Wasted a lot of time on some horrific brute-force attempts. |
 | [7: Recursive Circus](http://adventofcode.com/2017/day/7) | [1+2](/07/solution.py) | Python | 30 | So many list comprehensions... |
