@@ -9,6 +9,12 @@ main(R) :-
   connected([0], [], Groups, Uniques),
   length(Uniques, R), !.
 
+part2(R) :-
+  readFile("input", Input),
+  maplist(group, Input, Groups),
+  flatten(Groups, Programs),
+  supergroups(Programs, Groups, 0, R), !.
+
 /*connected([], _, R, R).
 connected([H|T], Groups, X, R) :-
   member(H, X) -> connected(Groups, H, X1), connected(T, Groups, X1, R) ; connected(T, Groups, X, R).
@@ -22,6 +28,13 @@ connected([H|T], Visited, Groups, [H|R]):-
   subtract(Programs, [H|Visited], NPrograms),
   union(T, NPrograms, NT),
   connected(NT, [H|Visited], NGroups, R).
+
+supergroups([], _, Ac, Ac) :- !.
+supergroups([N|Nodes], Groups, Ac, R)  :-
+  connected([N], [], Groups, Cs),
+  subtract(Nodes, Cs, NNodes),
+  NAc is Ac+1,
+  supergroups(NNodes, Groups, NAc, R).
 
 group(Line, Result) :-
   split_string(Line, "<->", " <-> ", [ A, B ]),
