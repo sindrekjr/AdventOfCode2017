@@ -21,3 +21,7 @@
 | [17: Spinlock](http://adventofcode.com/2017/day/17) | | | | |
 | [18: Duet](http://adventofcode.com/2017/day/18) | [1](/18/solution.py) | Python | 31 | Patchy. Redo later.  |
 | [19: A Series of Tubes](http://adventofcode.com/2017/day/19) | | | | |
+|
+|
+|
+| [23: Coprocessor Conflagration](http://adventofcode.com/2017/day/23) | [1](/23/solution.py) | Python | 20 | |
