@@ -18,7 +18,7 @@
 | [14: Disk Defragmentation](http://adventofcode.com/2017/day/14) | | | | |
 | [15: Dueling Generators](http://adventofcode.com/2017/day/15) | [1+2](/15/solution.hs) | Haskell | 11 | |
 | [16: Permutation Promenade](http://adventofcode.com/2017/day/16) | [1+2](/16/solution.hs) | Haskell | 26 | Very slow part 2. |
-| [17: Spinlock](http://adventofcode.com/2017/day/17) | [1](/17/solution.hs) | Haskell | 6 | Neat! |
+| [17: Spinlock](http://adventofcode.com/2017/day/17) | [1+2](/17/solution.hs) | Haskell | 11 | |
 | [18: Duet](http://adventofcode.com/2017/day/18) | [1](/18/solution.py) | Python | 31 | Patchy. Redo later.  |
 | [19: A Series of Tubes](http://adventofcode.com/2017/day/19) | | | | |
 | [20: Particle Swarm](http://adventofcode.com/2017/day/20) | | | | |
