@@ -24,4 +24,4 @@
 | [20: Particle Swarm](http://adventofcode.com/2017/day/20) | | | | |
 | [21: Fractal Art](http://adventofcode.com/2017/day/21) | | | | |
 | [22: Sporifica Virus](http://adventofcode.com/2017/day/22) | | | | |
-| [23: Coprocessor Conflagration](http://adventofcode.com/2017/day/23) | [1](/23/solution.py) | Python | 20 | |
+| [23: Coprocessor Conflagration](http://adventofcode.com/2017/day/23) | [1](/23/1-solution.py)<br>[2](/23/2-solution.hs) | Python<br>Haskell | 20<br>5 | |
