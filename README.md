@@ -25,3 +25,5 @@
 | [21: Fractal Art](http://adventofcode.com/2017/day/21) | | | | |
 | [22: Sporifica Virus](http://adventofcode.com/2017/day/22) | | | | |
 | [23: Coprocessor Conflagration](http://adventofcode.com/2017/day/23) | [1](/23/1-solution.py)<br>[2](/23/2-solution.hs) | Python<br>Haskell | 20<br>5 | |
+| [24: Electromagnetic Moat](http://adventofcode.com/2017/day/24) | | | | |
+| [25: The Halting Problem](http://adventofcode.com/2017/day/25) | [1](/25/solution.java) | Java | 78 | |
