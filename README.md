@@ -15,7 +15,7 @@
 | [11: Hex Ed](http://adventofcode.com/2017/day/11) | [1+2](/11/solution.sh) | Bash | 27 | |
 | [12: Digital Plumber](http://adventofcode.com/2017/day/12) | [1+2](/12/solution.pl) | Prolog | 46 | Several alternatives. Cleanup later. |
 | [13: Packet Scanners](http://adventofcode.com/2017/day/13) | [1+2](/13/solution.py) | Python | 19 | Brute-force. |
-| [14: Disk Defragmentation](http://adventofcode.com/2017/day/14) | | | | |
+| [14: Disk Defragmentation](http://adventofcode.com/2017/day/14) | [1](14/solution.hs) | Haskell | 23 | |
 | [15: Dueling Generators](http://adventofcode.com/2017/day/15) | [1+2](/15/solution.hs) | Haskell | 11 | |
 | [16: Permutation Promenade](http://adventofcode.com/2017/day/16) | [1+2](/16/solution.hs) | Haskell | 26 | Very slow part 2. |
 | [17: Spinlock](http://adventofcode.com/2017/day/17) | [1+2](/17/solution.hs) | Haskell | 11 | |
