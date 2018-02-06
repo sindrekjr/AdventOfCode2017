@@ -25,19 +25,20 @@ knit list input i skip
       rnd = if (i + len) - (length list) < 0 then 0 else (i + len) - (length list)
       nl = take rnd (drop (len - rnd) rev) ++ take (i - rnd) (drop rnd list) ++ take (len - rnd) rev ++ drop (i + len) list
 
+ascList, sparseHash, denseHash :: [Int] -> [Int]
 ascList inp = inp ++ [17, 31, 73, 47, 23]
 sparseHash inp = knit [0..255] (take (64 * length asc) (cycle asc)) 0 0 where asc = ascList inp
 denseHash inp = map (foldl' xor 0) (unfoldr (bool (Just . splitAt 16) (const Nothing) =<< null) (sparseHash inp))
 
+grid :: String -> [[Int]]
 grid inp = [ map ord $ inp ++ "-" ++ show i | i <- [0..127] ]
 
+dualInc :: (Int,Int) -> Int -> (Int,Int)
 dualInc (x,y) yLen = (nx,ny) where
   ny = if succ y == yLen then 0 else succ y
   nx = if y > ny then succ x else x
 
-countRegions :: [[Int]] -> Int
-countRegions inp = length $ findRegions inp (0,0) []
-
+findRegions :: [[Int]] -> (Int,Int) -> [[(Int,Int)]] -> [[(Int,Int)]]
 findRegions inp (x,y) regions
   | (x,y) == (length inp - 1, (length $ inp !! x) - 1) = regions
   | elem (x,y) (flatten regions) = findRegions inp (dualInc (x,y) (length $ head inp)) regions
@@ -59,4 +60,4 @@ part1 = do
 part2 = do
   input <- readFile "input"
   let hex = map (concatMap (printf "%02x")) . parMap rpar denseHash $ grid input
-  print $ countRegions (map (map digitToInt . concatMap fromJust . map hexToBin) hex)
+  print $ length $ findRegions (map (map digitToInt . concatMap fromJust . map hexToBin) hex) (0,0) []
